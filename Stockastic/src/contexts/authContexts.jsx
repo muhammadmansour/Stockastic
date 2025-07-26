@@ -9,7 +9,7 @@ export const AuthProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    axios.get(`https://authapi.stockastic.app//authToken`, {
+    axios.get(`https://authapi.stockastic.app/authToken`, {
       withCredentials: true
     }).then(() => {
       setAuth(true);
