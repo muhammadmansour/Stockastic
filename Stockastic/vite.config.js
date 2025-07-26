@@ -1,0 +1,21 @@
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'
+import flowbiteReact from "flowbite-react/plugin/vite";
+
+
+
+// https://vite.dev/config/
+export default defineConfig({
+
+ server: {
+    proxy: {
+      '/api': {
+        target: 'http://34.31.91.49:9093',
+        changeOrigin: true,
+        rewrite: path => path.replace(/^\/api/, '')
+      }
+    }
+  },
+  plugins: [react(), tailwindcss(), flowbiteReact()],
+})

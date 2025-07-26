@@ -1,0 +1,1487 @@
+{
+  "analysis_metadata": {
+    "pdf_source": "temp_uploaded.pdf",
+    "analysis_timestamp": "2025-07-14 09:00:28",
+    "execution_time_seconds": 73.45,
+    "overall_success": true,
+    "consolidated_mode": false,
+    "processing_status": {
+      "data_extraction": "success",
+      "notes_analysis": "success",
+      "financial_summary": "success"
+    },
+    "agent_configurations": {
+      "data_extraction": {
+        "temperature": 0,
+        "model": "gemini-2.5-flash",
+        "consolidated_mode": false,
+        "status": "success"
+      },
+      "notes_analysis": {
+        "temperature": 0,
+        "model": "gemini-2.0-flash",
+        "consolidated_mode": false,
+        "status": "success"
+      },
+      "financial_summary": {
+        "temperature": 0,
+        "model": "gemini-2.0-flash",
+        "status": "success"
+      }
+    }
+  },
+  "company_information": {
+    "company_name": "TMG Holding",
+    "reporting_period": "Year Ended December 31, 2024",
+    "currency": "EGP"
+  },
+
+
+
+  "financial_data": {
+    "company_name": "TMG Holding",
+    "reporting_period": "Year Ended December 31, 2024",
+    "currency": "EGP",
+
+
+
+"financial_statements": {
+      "balance_sheet": {
+
+
+        "Non-Current Assets": {
+          "details": {
+            "Fixed Assets": {
+              "current_year": 69711599,
+              "previous_year": 73614927,
+              "growth_rate": -5.44
+            },
+            "Investments in Subsidiaries": {
+              "current_year": 19059562160,
+              "previous_year": 19053179660,
+              "growth_rate": 0.03
+            },
+            "Investments in Associates": {
+              "current_year": 1470000,
+              "previous_year": 1470000,
+              "growth_rate": 0
+            }
+          },
+          "overall_comparison": {
+            "current_year": 19130743759,
+            "previous_year": 19128264587,
+            "growth_rate": 0.01
+          }
+        },
+        "Current Assets": {
+          "details": {
+            "Financial Assets at Fair Value Through Profit or Loss": {
+              "current_year": 224854462,
+              "previous_year": 131422600,
+              "growth_rate": 71.1
+            },
+            "Financial Investments at Amortized Cost": {
+              "current_year": 0,
+              "previous_year": 3007584,
+              "growth_rate": -100
+            },
+            "Accounts Receivable": {
+              "current_year": 2471830208,
+              "previous_year": 2484102406,
+              "growth_rate": -0.49
+            },
+            "Dividends Receivable": {
+              "current_year": 540212876,
+              "previous_year": 513350767,
+              "growth_rate": 5.23
+            },
+            "Due from Related Parties": {
+              "current_year": 473926520,
+              "previous_year": 402475983,
+              "growth_rate": 17.75
+            },
+            "Prepaid Expenses and Other Debit Balances": {
+              "current_year": 6959860,
+              "previous_year": 2181663,
+              "growth_rate": 219.02
+            },
+            "Cash and Cash Equivalents": {
+              "current_year": 15118433,
+              "previous_year": 2879268,
+              "growth_rate": 425.04
+            }
+          },
+          "overall_comparison": {
+            "current_year": 3732902359,
+            "previous_year": 3539420271,
+            "growth_rate": 5.47
+          }
+        },
+        "Total Assets": {
+          "overall_comparison": {
+            "current_year": 22863646118,
+            "previous_year": 22667684858,
+            "growth_rate": 0.86
+          }
+        },
+        "Equity": {
+          "details": {
+            "Issued and Paid-up Capital": {
+              "current_year": 20635622860,
+              "previous_year": 20635622860,
+              "growth_rate": 0
+            },
+            "Legal Reserve": {
+              "current_year": 432163000,
+              "previous_year": 398039965,
+              "growth_rate": 8.58
+            },
+            "General Reserve": {
+              "current_year": 61735404,
+              "previous_year": 61735404,
+              "growth_rate": 0
+            },
+            "Treasury Shares": {
+              "current_year": -152235725,
+              "previous_year": 0,
+              "growth_rate": null
+            },
+            "Retained Earnings": {
+              "current_year": 1801584160,
+              "previous_year": 1495830247,
+              "growth_rate": 20.44
+            }
+          },
+          "overall_comparison": {
+            "current_year": 22778869699,
+            "previous_year": 22591228476,
+            "growth_rate": 0.83
+          }
+        },
+        "Non-Current Liabilities": {
+          "details": {
+            "Deferred Tax Liabilities": {
+              "current_year": 18276260,
+              "previous_year": 5749620,
+              "growth_rate": 217.95
+            }
+          },
+          "overall_comparison": {
+            "current_year": 18276260,
+            "previous_year": 5749620,
+            "growth_rate": 217.95
+          }
+        },
+        "Current Liabilities": {
+          "details": {
+            "Accounts Payable": {
+              "current_year": 80925,
+              "previous_year": 242010,
+              "growth_rate": -66.56
+            },
+            "Income Tax Payable": {
+              "current_year": 54299869,
+              "previous_year": 60622290,
+              "growth_rate": -10.43
+            },
+            "Accrued Expenses and Other Credit Balances": {
+              "current_year": 12119365,
+              "previous_year": 9842462,
+              "growth_rate": 23.13
+            }
+          },
+          "overall_comparison": {
+            "current_year": 66500159,
+            "previous_year": 70706762,
+            "growth_rate": -5.95
+          }
+        },
+        "Total Liabilities": {
+          "overall_comparison": {
+            "current_year": 84776419,
+            "previous_year": 76456382,
+            "growth_rate": 10.88
+          }
+        },
+        "Total Equity and Liabilities": {
+          "overall_comparison": {
+            "current_year": 22863646118,
+            "previous_year": 22667684858,
+            "growth_rate": 0.86
+          }
+        }
+      },
+      "income_statement": {
+        "Revenue": {
+          "details": {
+            "Dividends from Subsidiaries": {
+              "current_year": 860851879,
+              "previous_year": 767497478,
+              "growth_rate": 12.17
+            },
+            "Finance Income": {
+              "current_year": 9234653,
+              "previous_year": 2631060,
+              "growth_rate": 251.75
+            },
+            "Gains on Financial Assets at Fair Value Through Profit or Loss": {
+              "current_year": 95842792,
+              "previous_year": 23093234,
+              "growth_rate": 314.16
+            }
+          },
+          "overall_comparison": {
+            "current_year": 965929324,
+            "previous_year": 793221772,
+            "growth_rate": 21.77
+          }
+        },
+        "Expenses and Other Items": {
+          "details": {
+            "General and Administrative Expenses": {
+              "current_year": -56072539,
+              "previous_year": -35049998,
+              "growth_rate": 60
+            },
+            "Depreciation": {
+              "current_year": -3903324,
+              "previous_year": -2618042,
+              "growth_rate": 49.09
+            },
+            "Bank Expenses": {
+              "current_year": -77321,
+              "previous_year": -36145,
+              "growth_rate": 113.92
+            },
+            "Losses / Reversal of Expected Credit Losses": {
+              "current_year": -13117302,
+              "previous_year": 2549904,
+              "growth_rate": -614.41
+            },
+            "Foreign Currency Revaluation Gains": {
+              "current_year": 707948,
+              "previous_year": 163284,
+              "growth_rate": 333.58
+            },
+            "Board of Directors' Remuneration": {
+              "current_year": -2230000,
+              "previous_year": -1740000,
+              "growth_rate": 28.16
+            },
+            "Treasury Bills Income": {
+              "current_year": 355465,
+              "previous_year": 54976,
+              "growth_rate": 546.58
+            },
+            "Treasury Bills Tax": {
+              "current_year": -71093,
+              "previous_year": -10995,
+              "growth_rate": 546.58
+            }
+          },
+          "overall_comparison": {
+            "current_year": -74406176,
+            "previous_year": -36786921,
+            "growth_rate": 102.25
+          }
+        },
+        "Profit Before Tax": {
+          "overall_comparison": {
+            "current_year": 891521158,
+            "previous_year": 756534756,
+            "growth_rate": 17.84
+          }
+        },
+        "Income Tax": {
+          "overall_comparison": {
+            "current_year": -89560507,
+            "previous_year": -74074060,
+            "growth_rate": 20.91
+          }
+        },
+        "Profit After Tax": {
+          "overall_comparison": {
+            "current_year": 801960651,
+            "previous_year": 682460696,
+            "growth_rate": 17.51
+          }
+        },
+        "Earnings Per Share": {
+          "overall_comparison": {
+            "current_year": 0.39,
+            "previous_year": 0.33,
+            "growth_rate": 18.18
+          }
+        }
+      },
+      "cash_flow_statement": {
+        "Cash Flows from Operating Activities": {
+          "details": {
+            "Profit Before Tax": {
+              "current_year": 891521158,
+              "previous_year": 756534756,
+              "growth_rate": 17.84
+            },
+            "Depreciation": {
+              "current_year": 3903324,
+              "previous_year": 2618042,
+              "growth_rate": 49.09
+            },
+            "Dividends from Investments in Subsidiaries": {
+              "current_year": -860851879,
+              "previous_year": -767497478,
+              "growth_rate": 12.17
+            },
+            "Finance Income": {
+              "current_year": -9590118,
+              "previous_year": -2686036,
+              "growth_rate": 257.03
+            },
+            "Losses / Reversal of Expected Credit Losses": {
+              "current_year": 13117302,
+              "previous_year": -2549904,
+              "growth_rate": -614.41
+            },
+            "Gains on Financial Assets at Fair Value Through Profit or Loss": {
+              "current_year": -95842792,
+              "previous_year": -23093234,
+              "growth_rate": 314.16
+            },
+            "Gains on Foreign Currency Revaluation": {
+              "current_year": -707948,
+              "previous_year": -163384,
+              "growth_rate": 333.31
+            },
+            "Losses from Operations before Changes in Working Capital": {
+              "current_year": -58450953,
+              "previous_year": -36837138,
+              "growth_rate": 58.67
+            },
+            "Change in Due from Related Parties": {
+              "current_year": -71089812,
+              "previous_year": 723246147,
+              "growth_rate": -109.83
+            },
+            "Change in Accounts Receivable": {
+              "current_year": 0,
+              "previous_year": -26355,
+              "growth_rate": -100
+            },
+            "Change in Prepaid Expenses and Other Debit Balances": {
+              "current_year": -4783180,
+              "previous_year": 71842,
+              "growth_rate": -6756
+            },
+            "Change in Accounts Payable": {
+              "current_year": -161086,
+              "previous_year": -165153,
+              "growth_rate": -2.46
+            },
+            "Change in Accrued Expenses and Other Credit Balances": {
+              "current_year": 2276903,
+              "previous_year": 1243341,
+              "growth_rate": 83.13
+            },
+            "Income Tax Paid": {
+              "current_year": -83356288,
+              "previous_year": -87526408,
+              "growth_rate": -4.82
+            }
+          },
+          "overall_comparison": {
+            "current_year": -215563416,
+            "previous_year": 600006276,
+            "growth_rate": -135.93
+          }
+        },
+        "Cash Flows from Investing Activities": {
+          "details": {
+            "Proceeds from (Payments for) Purchase of Fixed Assets and Assets Under Construction": {
+              "current_year": 4,
+              "previous_year": -35481347,
+              "growth_rate": -100
+            },
+            "Proceeds from (Payments for) Financial Investments at Fair Value Through Profit or Loss": {
+              "current_year": 2410930,
+              "previous_year": -2010012,
+              "growth_rate": -220.94
+            },
+            "Payments for Investments in Subsidiaries": {
+              "current_year": -6383500,
+              "previous_year": -1036916400,
+              "growth_rate": -99.38
+            },
+            "Proceeds from (Payments for) Financial Investments at Amortized Cost": {
+              "current_year": 3007584,
+              "previous_year": -3007084,
+              "growth_rate": -200
+            },
+            "Dividends Received": {
+              "current_year": 833851947,
+              "previous_year": 872496041,
+              "growth_rate": -4.5
+            },
+            "Finance Income Received": {
+              "current_year": 9590118,
+              "previous_year": 2686036,
+              "growth_rate": 257.03
+            }
+          },
+          "overall_comparison": {
+            "current_year": 841478083,
+            "previous_year": -193333366,
+            "growth_rate": -535.3
+          }
+        },
+        "Cash Flows from Financing Activities": {
+          "details": {
+            "Purchase of Treasury Shares": {
+              "current_year": -152235725,
+              "previous_year": -407200000,
+              "growth_rate": -62.59
+            },
+            "Cash Dividends Paid": {
+              "current_year": -462083702,
+              "previous_year": -407200000,
+              "growth_rate": 13.48
+            }
+          },
+          "overall_comparison": {
+            "current_year": -614319427,
+            "previous_year": -814400000,
+            "growth_rate": -24.69
+          }
+        },
+        "Foreign Currency Revaluation Differences": {
+          "overall_comparison": {
+            "current_year": 707948,
+            "previous_year": 163284,
+            "growth_rate": 333.58
+          }
+        },
+        "Net Cash and Cash Equivalents During the Year": {
+          "overall_comparison": {
+            "current_year": 11595240,
+            "previous_year": 573010,
+            "growth_rate": 1923.56
+          }
+        },
+        "Cash and Cash Equivalents - Beginning of Year": {
+          "overall_comparison": {
+            "current_year": 2879271,
+            "previous_year": 2142974,
+            "growth_rate": 34.36
+          }
+        },
+        "Cash and Cash Equivalents - End of Year": {
+          "overall_comparison": {
+            "current_year": 15181459,
+            "previous_year": 2879268,
+            "growth_rate": 427.2
+          }
+        }
+      },
+
+
+      "statement_of_changes_in_equity": {
+        "Balance as of January 1, 2024": {
+          "details": {
+            "Issued and Paid-up Capital": {
+              "current_year": 20635622860,
+              "previous_year": null,
+              "growth_rate": null
+            },
+            "Legal Reserve": {
+              "current_year": 398039965,
+              "previous_year": null,
+              "growth_rate": null
+            },
+            "General Reserve": {
+              "current_year": 61735404,
+              "previous_year": null,
+              "growth_rate": null
+            },
+            "Treasury Shares": {
+              "current_year": 0,
+              "previous_year": null,
+              "growth_rate": null
+            },
+            "Retained Earnings": {
+              "current_year": 1495830247,
+              "previous_year": null,
+              "growth_rate": null
+            }
+          },
+          "overall_comparison": {
+            "current_year": 22591228476,
+            "previous_year": null,
+            "growth_rate": null
+          }
+        },
+        "Transferred to Legal Reserve": {
+          "details": {
+            "Legal Reserve": {
+              "current_year": 34123035,
+              "previous_year": null,
+              "growth_rate": null
+            },
+            "Retained Earnings": {
+              "current_year": -34123035,
+              "previous_year": null,
+              "growth_rate": null
+            }
+          },
+          "overall_comparison": {
+            "current_year": 0,
+            "previous_year": null,
+            "growth_rate": null
+          }
+        },
+        "Treasury Shares Movement": {
+          "details": {
+            "Treasury Shares": {
+              "current_year": -152235725,
+              "previous_year": null,
+              "growth_rate": null
+            }
+          },
+          "overall_comparison": {
+            "current_year": -152235725,
+            "previous_year": null,
+            "growth_rate": null
+          }
+        },
+        "Total Comprehensive Income": {
+          "details": {
+            "Retained Earnings": {
+              "current_year": 801960651,
+              "previous_year": null,
+              "growth_rate": null
+            }
+          },
+          "overall_comparison": {
+            "current_year": 801960651,
+            "previous_year": null,
+            "growth_rate": null
+          }
+        },
+        "Dividends": {
+          "details": {
+            "Retained Earnings": {
+              "current_year": -469083703,
+              "previous_year": null,
+              "growth_rate": null
+            }
+          },
+          "overall_comparison": {
+            "current_year": -469083703,
+            "previous_year": null,
+            "growth_rate": null
+          }
+        },
+
+
+
+
+
+
+
+
+        "Balance as of December 31, 2024": {
+          "details": {
+            "Issued and Paid-up Capital": {
+              "current_year": 20635622860,
+              "previous_year": null,
+              "growth_rate": null
+            },
+            "Legal Reserve": {
+              "current_year": 432163000,
+              "previous_year": null,
+              "growth_rate": null
+            },
+            "General Reserve": {
+              "current_year": 61735404,
+              "previous_year": null,
+              "growth_rate": null
+            },
+            "Treasury Shares": {
+              "current_year": -152235725,
+              "previous_year": null,
+              "growth_rate": null
+            },
+            "Retained Earnings": {
+              "current_year": 1801584160,
+              "previous_year": null,
+              "growth_rate": null
+            }
+          },
+          "overall_comparison": {
+            "current_year": 22778869699,
+            "previous_year": null,
+            "growth_rate": null
+          }
+        },
+        "Balance as of January 1, 2023": {
+          "details": {
+            "Issued and Paid-up Capital": {
+              "current_year": 20635622860,
+              "previous_year": null,
+              "growth_rate": null
+            },
+            "Legal Reserve": {
+              "current_year": 364990669,
+              "previous_year": null,
+              "growth_rate": null
+            },
+            "General Reserve": {
+              "current_year": 61735404,
+              "previous_year": null,
+              "growth_rate": null
+            },
+            "Treasury Shares": {
+              "current_year": 0,
+              "previous_year": null,
+              "growth_rate": null
+            },
+            "Retained Earnings": {
+              "current_year": 1253618847,
+              "previous_year": null,
+              "growth_rate": null
+            }
+          },
+          "overall_comparison": {
+            "current_year": 22315967780,
+            "previous_year": null,
+            "growth_rate": null
+          }
+        },
+        "Transferred to Legal Reserve (2023)": {
+          "details": {
+            "Legal Reserve": {
+              "current_year": 33049296,
+              "previous_year": null,
+              "growth_rate": null
+            },
+            "Retained Earnings": {
+              "current_year": -33049296,
+              "previous_year": null,
+              "growth_rate": null
+            }
+          },
+          "overall_comparison": {
+            "current_year": 0,
+            "previous_year": null,
+            "growth_rate": null
+          }
+        },
+        "Total Comprehensive Income (2023)": {
+          "details": {
+            "Retained Earnings": {
+              "current_year": 682460696,
+              "previous_year": null,
+              "growth_rate": null
+            }
+          },
+          "overall_comparison": {
+            "current_year": 682460696,
+            "previous_year": null,
+            "growth_rate": null
+          }
+        },
+        "Dividends (2023)": {
+          "details": {
+            "Retained Earnings": {
+              "current_year": -407200000,
+              "previous_year": null,
+              "growth_rate": null
+            }
+          },
+          "overall_comparison": {
+            "current_year": -407200000,
+            "previous_year": null,
+            "growth_rate": null
+          }
+        },
+        "Balance as of December 31, 2023": {
+          "details": {
+            "Issued and Paid-up Capital": {
+              "current_year": 20635622860,
+              "previous_year": null,
+              "growth_rate": null
+            },
+            "Legal Reserve": {
+              "current_year": 398039965,
+              "previous_year": null,
+              "growth_rate": null
+            },
+            "General Reserve": {
+              "current_year": 61735404,
+              "previous_year": null,
+              "growth_rate": null
+            },
+            "Treasury Shares": {
+              "current_year": 0,
+              "previous_year": null,
+              "growth_rate": null
+            },
+            "Retained Earnings": {
+              "current_year": 1495830247,
+              "previous_year": null,
+              "growth_rate": null
+            }
+          },
+          "overall_comparison": {
+            "current_year": 22591228476,
+            "previous_year": null,
+            "growth_rate": null
+          }
+        }
+      }
+    }
+  },
+
+
+
+
+
+  "notes_summary": "```markdown\n## 1. Accounting Framework and Policies\n\n### 1.1. Basis of Preparation:\nThe financial statements are prepared in accordance with Egyptian Accounting Standards and in light of prevailing Egyptian laws and regulations, including directives and interpretations issued by the Financial Regulatory Authority in January 2022 regarding bills of exchange received from non-delivering units and factoring operations. The financial statements are presented in Egyptian Pounds (EGP), the company's functional currency.\n\n### 1.2. Use of Estimates:\nThe preparation of financial statements requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities, disclosure of contingent assets and liabilities at the date of the financial statements, and the reported amounts of revenues and expenses during the reporting period.\n\n### 1.3. Foreign Currency Translation:\nTransactions in foreign currencies are initially recorded at the spot exchange rate at the date of the transaction. Monetary assets and liabilities denominated in foreign currencies are translated at the exchange rate at the balance sheet date, with all exchange differences recognized in profit or loss. Non-monetary assets and liabilities carried at historical cost are translated using the exchange rate at the date of the initial recognition. Non-monetary assets and liabilities carried at fair value are translated using the exchange rate at the date when the fair value was determined.\n\n### 1.4. Property, Plant and Equipment:\nProperty, plant, and equipment are stated at historical cost less accumulated depreciation and any accumulated impairment losses. Depreciation is calculated using the straight-line method over the estimated useful lives of the assets, as follows: Buildings and constructions 20 years, Transportation and moving equipment 5 years, Computer equipment 3-8 years, Furniture and fixtures 5-10 years, Tools and instruments 3-5 years. The asset's residual values, useful lives, and depreciation methods are reviewed at the end of each financial year.\n\n### 1.5. Impairment of Assets:\nThe company assesses at each reporting date whether there is an indication that an asset may be impaired. If any indication exists, the company estimates the recoverable amount of the asset. Impairment losses are recognized in profit or loss.\n\n### 1.6. Investments in Subsidiaries:\nInvestments in subsidiaries are accounted for at cost, including acquisition costs. If there is impairment in the value of these investments, the carrying amount is adjusted by the amount of the impairment, which is recognized in profit or loss.\n\n### 1.7. Financial Instruments:\nFinancial assets are classified into four categories: financial assets at amortized cost (debt instruments), financial assets at fair value through other comprehensive income with recycling of accumulated gains and losses (debt instruments), financial assets at fair value through other comprehensive income without recycling upon derecognition (equity instruments), and financial assets at fair value through profit or loss.\n\n### 1.8. Expected Credit Losses:\nThe company recognizes expected credit losses on financial assets measured at amortized cost and investments in debt instruments measured at fair value through other comprehensive income. The company measures loss allowances at an amount equal to lifetime expected credit losses, except for certain instruments where 12-month expected credit losses are applied.\n\n### 1.9. Leases:\nThe company assesses whether a contract is or contains a lease. The company recognizes lease liabilities to make lease payments and right-of-use assets representing the right to use the underlying assets.\n\n### 1.10. Revenue Recognition:\nRevenue is recognized when the company transfers control of a product or service to a customer. Revenue from investments in subsidiaries is recognized when the right to receive payment is established. Interest income is recognized using the effective interest method.\n\n### 1.11. Provisions:\nProvisions are recognized when the company has a present obligation as a result of a past event, it is probable that an outflow of resources embodying economic benefits will be required to settle the obligation, and a reliable estimate can be made of the amount of the obligation.\n\n### 1.12. Income Taxes:\nIncome tax expense is the aggregate of current and deferred tax. Current tax is the amount of income taxes payable or recoverable in respect of the taxable profit or loss for a period. Deferred tax is recognized on temporary differences between the carrying amounts of assets and liabilities in the financial statements and the corresponding tax bases used in the computation of taxable profit.\n\n### 1.13. Cash Flow Statement:\nThe statement of cash flows is prepared using the indirect method.\n\n### 1.14. Transactions with Related Parties:\nRelated parties include the parent company, subsidiaries, major shareholders, directors, and key management personnel. Pricing policies for transactions with related parties are approved by the board of directors.\n\n### 1.15. Employee Benefits:\nThe company contributes to a social insurance system for its employees. The company's contributions are charged to profit or loss on an accrual basis.\n\n### 1.16. Borrowing Costs:\nBorrowing costs directly attributable to the acquisition, construction, or production of a qualifying asset are capitalized as part of the cost of that asset. Other borrowing costs are expensed in the period in which they are incurred.\n\n### 1.17. Expenses:\nAll expenses are recognized in profit or loss in the financial year in which they are incurred.\n\n### 1.18. Dividends:\nDividends are recognized when they are approved.\n\n### 1.19. Earnings Per Share:\nBasic earnings per share is calculated by dividing the profit or loss attributable to equity holders of the company by the weighted average number of ordinary shares outstanding during the period.\n\n### 1.20. Fair Value Measurement:\nFair value is the price that would be received to sell an asset or paid to transfer a liability in an orderly transaction between market participants at the measurement date.\n\n## 2. Assets\n\n### 2.1. Property, Plant and Equipment:\nAt December 31 2024, the net book value of property, plant, and equipment was EGP 69711599.\n\n### 2.2. Investments in Subsidiaries:\nThe company holds investments in subsidiaries, including Arab Company for Projects and Urban Development, Alexandria Real Estate Investment Company, San Stefano Real Estate Investment Company, and Alexandria Company for Urban Projects. The total cost of investments in subsidiaries was EGP 19059562160 at December 31 2024.\n\n### 2.3. Financial Assets at Fair Value Through Profit or Loss:\nFinancial assets at fair value through profit or loss amounted to EGP 224854461 at December 31 2024.\n\n### 2.4. Financial Assets at Amortized Cost:\nFinancial assets at amortized cost amounted to EGP 3007584 at December 31 2024.\n\n### 2.5. Due from Related Parties:\nDue from related parties amounted to EGP 402475983 at December 31 2024.\n\n## 3. Equity\n\n### 3.1. Share Capital:\nThe authorized share capital is EGP 50000000. The issued and paid-up share capital is EGP 20635622860 divided into 2063562286 shares with a par value of EGP 10 per share.\n\n### 3.2. Legal Reserve:\nThe legal reserve amounted to EGP 432163000 at December 31 2024.\n\n### 3.3. General Reserve:\nThe general reserve amounted to EGP 61735404 at December 31 2024.\n\n### 3.4. Treasury Shares:\nTreasury shares amounted to EGP 152235725 at December 31 2024.\n\n## 4. Financial Risk Management\n\n### 4.1. Credit Risk:\nThe company's maximum exposure to credit risk is represented by the carrying amount of the financial assets.\n\n### 4.2. Liquidity Risk:\nThe company manages liquidity risk by maintaining adequate cash reserves.\n\n### 4.3. Market Risk:\nThe company is exposed to market risk, including foreign exchange risk and interest rate risk.\n\n## 5. Related Party Transactions\n\n### 5.1. Transactions with Subsidiaries:\nThe company has transactions with its subsidiaries, including dividend distributions.\n\n### 5.2. Key Management Personnel Compensation:\nKey management personnel compensation includes salaries and short-term benefits.\n\n## 6. Contingencies and Commitments\n\n### 6.1. Contingencies:\nThere are no material contingent liabilities.\n\n### 6.2. Commitments:\nThere are no material capital expenditure commitments.\n```",
+  "financial_summary": "```markdown\n## 1. Company Overview and Reporting Context:\nTMG Holding reported annual financial results for the year ended December 31 2024 with all figures presented in Egyptian Pounds. The company's total assets reached 22863646118 representing a slight increase of 0.86% from the prior year's 22667684858. This marginal growth reflects strategic investments and operational adjustments within the reporting period.\n\n## 2. Financial Performance Analysis\n\n### 2.1. Revenue and Expenses:\nTotal revenue for the year was 965929324 compared to 793221772 in the previous year, representing a growth of 21.77%. This increase was primarily driven by dividends from subsidiaries, which grew by 12.17% to 860851879. Finance income also contributed significantly, increasing by 251.75% to 9234653, and gains on financial assets at fair value through profit or loss increased by 314.16% to 95842792.\nExpenses and other items increased substantially to -74406176 from -36786921, a growth of 102.25%. This was largely due to an increase in general and administrative expenses, which rose by 60% to -56072539, and losses/reversal of expected credit losses, which shifted from a gain of 2549904 to a loss of -13117302.\n\n### 2.2. Profitability:\nProfit before tax increased by 17.84% to 891521158 from 756534756. After accounting for income tax, which increased by 20.91% to -89560507, the profit after tax was 801960651, representing a growth of 17.51% compared to the previous year's 682460696. Earnings per share also increased from 0.33 to 0.39, reflecting a growth of 18.18%.\n\n## 3. Balance Sheet Analysis\n\n### 3.1. Assets:\nNon-current assets experienced a slight increase of 0.01%, reaching 19130743759. This was primarily driven by investments in subsidiaries, which grew by 0.03% to 19059562160. Fixed assets decreased by 5.44% to 69711599.\nCurrent assets increased by 5.47% to 3732902359. This growth was largely due to a significant increase in financial assets at fair value through profit or loss, which grew by 71.1% to 224854462. Cash and cash equivalents also saw a substantial increase of 425.04% to 15118433. Financial investments at amortized cost decreased to 0 from 3007584.\n\n### 3.2. Liabilities and Equity:\nTotal liabilities increased by 10.88% to 84776419. Non-current liabilities, consisting solely of deferred tax liabilities, increased significantly by 217.95% to 18276260. Current liabilities decreased by 5.95% to 66500159.\nTotal equity increased by 0.83% to 22778869699. This was primarily driven by an increase in retained earnings, which grew by 20.44% to 1801584160. The company purchased treasury shares valued at -152235725. Issued and paid-up capital remained constant at 20635622860.\n\n## 4. Cash Flow Analysis\n\n### 4.1. Operating Activities:\nCash flows from operating activities decreased significantly to -215563416 from 600006276, a decrease of 135.93%. This was primarily due to changes in working capital, particularly a significant shift in due from related parties from an inflow of 723246147 to an outflow of -71089812.\n\n### 4.2. Investing Activities:\nCash flows from investing activities improved substantially to 841478083 from -193333366, an increase of 535.3%. This was mainly driven by dividends received, which amounted to 833851947, and a decrease in payments for investments in subsidiaries, which decreased by 99.38% to -6383500.\n\n### 4.3. Financing Activities:\nCash flows from financing activities decreased by 24.69% to -614319427. This was primarily due to the purchase of treasury shares (-152235725) and cash dividends paid (-462083702).\n\n### 4.4. Net Cash Flow:\nThe net cash and cash equivalents during the year increased significantly by 1923.56% to 11595240. The company's cash and cash equivalents at the end of the year was 15181459, a 427.2% increase from the previous year's 2879268.\n\n## 5. Statement of Changes in Equity\n\n### 5.1. Equity Movements:\nThe balance of equity as of January 1 2024 was 22591228476. During the year, 34123035 was transferred to the legal reserve, and treasury shares were purchased for -152235725. Total comprehensive income for the year was 801960651, and dividends of -469083703 were distributed. The balance as of December 31 2024 was 22778869699.\n```",
+  "processing_errors": {
+    "data_extraction_error": null,
+    "notes_analysis_error": null,
+    "financial_summary_error": null
+  },
+  "raw_agent_results": {
+    "data_extraction": {
+      "success": true,
+      "data": {
+        "company_name": "TMG Holding",
+
+
+        "reporting_period": "Year Ended December 31, 2024",
+        "currency": "EGP",
+
+
+		// -----------------
+
+ "financial_statements": {
+	
+          "balance_sheet": {
+
+            "Non-Current Assets": {
+              "details": {
+                "Fixed Assets": {
+                  "current_year": 69711599,
+                  "previous_year": 73614927,
+                  "growth_rate": -5.44
+                },
+                "Investments in Subsidiaries": {
+                  "current_year": 19059562160,
+                  "previous_year": 19053179660,
+                  "growth_rate": 0.03
+                },
+                "Investments in Associates": {
+                  "current_year": 1470000,
+                  "previous_year": 1470000,
+                  "growth_rate": 0
+                }
+              },
+              "overall_comparison": {
+                "current_year": 19130743759,
+                "previous_year": 19128264587,
+                "growth_rate": 0.01
+              }
+            },
+            "Current Assets": {
+              "details": {
+                "Financial Assets at Fair Value Through Profit or Loss": {
+                  "current_year": 224854462,
+                  "previous_year": 131422600,
+                  "growth_rate": 71.1
+                },
+                "Financial Investments at Amortized Cost": {
+                  "current_year": 0,
+                  "previous_year": 3007584,
+                  "growth_rate": -100
+                },
+                "Accounts Receivable": {
+                  "current_year": 2471830208,
+                  "previous_year": 2484102406,
+                  "growth_rate": -0.49
+                },
+                "Dividends Receivable": {
+                  "current_year": 540212876,
+                  "previous_year": 513350767,
+                  "growth_rate": 5.23
+                },
+                "Due from Related Parties": {
+                  "current_year": 473926520,
+                  "previous_year": 402475983,
+                  "growth_rate": 17.75
+                },
+                "Prepaid Expenses and Other Debit Balances": {
+                  "current_year": 6959860,
+                  "previous_year": 2181663,
+                  "growth_rate": 219.02
+                },
+                "Cash and Cash Equivalents": {
+                  "current_year": 15118433,
+                  "previous_year": 2879268,
+                  "growth_rate": 425.04
+                }
+              },
+              "overall_comparison": {
+                "current_year": 3732902359,
+                "previous_year": 3539420271,
+                "growth_rate": 5.47
+              }
+            },
+            "Total Assets": {
+              "overall_comparison": {
+                "current_year": 22863646118,
+                "previous_year": 22667684858,
+                "growth_rate": 0.86
+              }
+            },
+            "Equity": {
+              "details": {
+                "Issued and Paid-up Capital": {
+                  "current_year": 20635622860,
+                  "previous_year": 20635622860,
+                  "growth_rate": 0
+                },
+                "Legal Reserve": {
+                  "current_year": 432163000,
+                  "previous_year": 398039965,
+                  "growth_rate": 8.58
+                },
+                "General Reserve": {
+                  "current_year": 61735404,
+                  "previous_year": 61735404,
+                  "growth_rate": 0
+                },
+                "Treasury Shares": {
+                  "current_year": -152235725,
+                  "previous_year": 0,
+                  "growth_rate": null
+                },
+                "Retained Earnings": {
+                  "current_year": 1801584160,
+                  "previous_year": 1495830247,
+                  "growth_rate": 20.44
+                }
+              },
+              "overall_comparison": {
+                "current_year": 22778869699,
+                "previous_year": 22591228476,
+                "growth_rate": 0.83
+              }
+            },
+            "Non-Current Liabilities": {
+              "details": {
+                "Deferred Tax Liabilities": {
+                  "current_year": 18276260,
+                  "previous_year": 5749620,
+                  "growth_rate": 217.95
+                }
+              },
+              "overall_comparison": {
+                "current_year": 18276260,
+                "previous_year": 5749620,
+                "growth_rate": 217.95
+              }
+            },
+            "Current Liabilities": {
+              "details": {
+                "Accounts Payable": {
+                  "current_year": 80925,
+                  "previous_year": 242010,
+                  "growth_rate": -66.56
+                },
+                "Income Tax Payable": {
+                  "current_year": 54299869,
+                  "previous_year": 60622290,
+                  "growth_rate": -10.43
+                },
+                "Accrued Expenses and Other Credit Balances": {
+                  "current_year": 12119365,
+                  "previous_year": 9842462,
+                  "growth_rate": 23.13
+                }
+              },
+              "overall_comparison": {
+                "current_year": 66500159,
+                "previous_year": 70706762,
+                "growth_rate": -5.95
+              }
+            },
+            "Total Liabilities": {
+              "overall_comparison": {
+                "current_year": 84776419,
+                "previous_year": 76456382,
+                "growth_rate": 10.88
+              }
+            },
+            "Total Equity and Liabilities": {
+              "overall_comparison": {
+                "current_year": 22863646118,
+                "previous_year": 22667684858,
+                "growth_rate": 0.86
+              }
+            }
+          },
+          "income_statement": {
+            "Revenue": {
+              "details": {
+                "Dividends from Subsidiaries": {
+                  "current_year": 860851879,
+                  "previous_year": 767497478,
+                  "growth_rate": 12.17
+                },
+                "Finance Income": {
+                  "current_year": 9234653,
+                  "previous_year": 2631060,
+                  "growth_rate": 251.75
+                },
+                "Gains on Financial Assets at Fair Value Through Profit or Loss": {
+                  "current_year": 95842792,
+                  "previous_year": 23093234,
+                  "growth_rate": 314.16
+                }
+              },
+              "overall_comparison": {
+                "current_year": 965929324,
+                "previous_year": 793221772,
+                "growth_rate": 21.77
+              }
+            },
+            "Expenses and Other Items": {
+              "details": {
+                "General and Administrative Expenses": {
+                  "current_year": -56072539,
+                  "previous_year": -35049998,
+                  "growth_rate": 60
+                },
+                "Depreciation": {
+                  "current_year": -3903324,
+                  "previous_year": -2618042,
+                  "growth_rate": 49.09
+                },
+                "Bank Expenses": {
+                  "current_year": -77321,
+                  "previous_year": -36145,
+                  "growth_rate": 113.92
+                },
+                "Losses / Reversal of Expected Credit Losses": {
+                  "current_year": -13117302,
+                  "previous_year": 2549904,
+                  "growth_rate": -614.41
+                },
+                "Foreign Currency Revaluation Gains": {
+                  "current_year": 707948,
+                  "previous_year": 163284,
+                  "growth_rate": 333.58
+                },
+                "Board of Directors' Remuneration": {
+                  "current_year": -2230000,
+                  "previous_year": -1740000,
+                  "growth_rate": 28.16
+                },
+                "Treasury Bills Income": {
+                  "current_year": 355465,
+                  "previous_year": 54976,
+                  "growth_rate": 546.58
+                },
+                "Treasury Bills Tax": {
+                  "current_year": -71093,
+                  "previous_year": -10995,
+                  "growth_rate": 546.58
+                }
+              },
+              "overall_comparison": {
+                "current_year": -74406176,
+                "previous_year": -36786921,
+                "growth_rate": 102.25
+              }
+            },
+            "Profit Before Tax": {
+              "overall_comparison": {
+                "current_year": 891521158,
+                "previous_year": 756534756,
+                "growth_rate": 17.84
+              }
+            },
+            "Income Tax": {
+              "overall_comparison": {
+                "current_year": -89560507,
+                "previous_year": -74074060,
+                "growth_rate": 20.91
+              }
+            },
+            "Profit After Tax": {
+              "overall_comparison": {
+                "current_year": 801960651,
+                "previous_year": 682460696,
+                "growth_rate": 17.51
+              }
+            },
+            "Earnings Per Share": {
+              "overall_comparison": {
+                "current_year": 0.39,
+                "previous_year": 0.33,
+                "growth_rate": 18.18
+              }
+            }
+          },
+          "cash_flow_statement": {
+            "Cash Flows from Operating Activities": {
+              "details": {
+                "Profit Before Tax": {
+                  "current_year": 891521158,
+                  "previous_year": 756534756,
+                  "growth_rate": 17.84
+                },
+                "Depreciation": {
+                  "current_year": 3903324,
+                  "previous_year": 2618042,
+                  "growth_rate": 49.09
+                },
+                "Dividends from Investments in Subsidiaries": {
+                  "current_year": -860851879,
+                  "previous_year": -767497478,
+                  "growth_rate": 12.17
+                },
+                "Finance Income": {
+                  "current_year": -9590118,
+                  "previous_year": -2686036,
+                  "growth_rate": 257.03
+                },
+                "Losses / Reversal of Expected Credit Losses": {
+                  "current_year": 13117302,
+                  "previous_year": -2549904,
+                  "growth_rate": -614.41
+                },
+                "Gains on Financial Assets at Fair Value Through Profit or Loss": {
+                  "current_year": -95842792,
+                  "previous_year": -23093234,
+                  "growth_rate": 314.16
+                },
+                "Gains on Foreign Currency Revaluation": {
+                  "current_year": -707948,
+                  "previous_year": -163384,
+                  "growth_rate": 333.31
+                },
+                "Losses from Operations before Changes in Working Capital": {
+                  "current_year": -58450953,
+                  "previous_year": -36837138,
+                  "growth_rate": 58.67
+                },
+                "Change in Due from Related Parties": {
+                  "current_year": -71089812,
+                  "previous_year": 723246147,
+                  "growth_rate": -109.83
+                },
+                "Change in Accounts Receivable": {
+                  "current_year": 0,
+                  "previous_year": -26355,
+                  "growth_rate": -100
+                },
+                "Change in Prepaid Expenses and Other Debit Balances": {
+                  "current_year": -4783180,
+                  "previous_year": 71842,
+                  "growth_rate": -6756
+                },
+                "Change in Accounts Payable": {
+                  "current_year": -161086,
+                  "previous_year": -165153,
+                  "growth_rate": -2.46
+                },
+                "Change in Accrued Expenses and Other Credit Balances": {
+                  "current_year": 2276903,
+                  "previous_year": 1243341,
+                  "growth_rate": 83.13
+                },
+                "Income Tax Paid": {
+                  "current_year": -83356288,
+                  "previous_year": -87526408,
+                  "growth_rate": -4.82
+                }
+              },
+              "overall_comparison": {
+                "current_year": -215563416,
+                "previous_year": 600006276,
+                "growth_rate": -135.93
+              }
+            },
+            "Cash Flows from Investing Activities": {
+              "details": {
+                "Proceeds from (Payments for) Purchase of Fixed Assets and Assets Under Construction": {
+                  "current_year": 4,
+                  "previous_year": -35481347,
+                  "growth_rate": -100
+                },
+                "Proceeds from (Payments for) Financial Investments at Fair Value Through Profit or Loss": {
+                  "current_year": 2410930,
+                  "previous_year": -2010012,
+                  "growth_rate": -220.94
+                },
+                "Payments for Investments in Subsidiaries": {
+                  "current_year": -6383500,
+                  "previous_year": -1036916400,
+                  "growth_rate": -99.38
+                },
+                "Proceeds from (Payments for) Financial Investments at Amortized Cost": {
+                  "current_year": 3007584,
+                  "previous_year": -3007084,
+                  "growth_rate": -200
+                },
+                "Dividends Received": {
+                  "current_year": 833851947,
+                  "previous_year": 872496041,
+                  "growth_rate": -4.5
+                },
+                "Finance Income Received": {
+                  "current_year": 9590118,
+                  "previous_year": 2686036,
+                  "growth_rate": 257.03
+                }
+              },
+              "overall_comparison": {
+                "current_year": 841478083,
+                "previous_year": -193333366,
+                "growth_rate": -535.3
+              }
+            },
+            "Cash Flows from Financing Activities": {
+              "details": {
+                "Purchase of Treasury Shares": {
+                  "current_year": -152235725,
+                  "previous_year": -407200000,
+                  "growth_rate": -62.59
+                },
+                "Cash Dividends Paid": {
+                  "current_year": -462083702,
+                  "previous_year": -407200000,
+                  "growth_rate": 13.48
+                }
+              },
+              "overall_comparison": {
+                "current_year": -614319427,
+                "previous_year": -814400000,
+                "growth_rate": -24.69
+              }
+            },
+            "Foreign Currency Revaluation Differences": {
+              "overall_comparison": {
+                "current_year": 707948,
+                "previous_year": 163284,
+                "growth_rate": 333.58
+              }
+            },
+            "Net Cash and Cash Equivalents During the Year": {
+              "overall_comparison": {
+                "current_year": 11595240,
+                "previous_year": 573010,
+                "growth_rate": 1923.56
+              }
+            },
+            "Cash and Cash Equivalents - Beginning of Year": {
+              "overall_comparison": {
+                "current_year": 2879271,
+                "previous_year": 2142974,
+                "growth_rate": 34.36
+              }
+            },
+            "Cash and Cash Equivalents - End of Year": {
+              "overall_comparison": {
+                "current_year": 15181459,
+                "previous_year": 2879268,
+                "growth_rate": 427.2
+              }
+            }
+          },
+          "statement_of_changes_in_equity": {
+            "Balance as of January 1, 2024": {
+              "details": {
+                "Issued and Paid-up Capital": {
+                  "current_year": 20635622860,
+                  "previous_year": null,
+                  "growth_rate": null
+                },
+                "Legal Reserve": {
+                  "current_year": 398039965,
+                  "previous_year": null,
+                  "growth_rate": null
+                },
+                "General Reserve": {
+                  "current_year": 61735404,
+                  "previous_year": null,
+                  "growth_rate": null
+                },
+                "Treasury Shares": {
+                  "current_year": 0,
+                  "previous_year": null,
+                  "growth_rate": null
+                },
+                "Retained Earnings": {
+                  "current_year": 1495830247,
+                  "previous_year": null,
+                  "growth_rate": null
+                }
+              },
+              "overall_comparison": {
+                "current_year": 22591228476,
+                "previous_year": null,
+                "growth_rate": null
+              }
+            },
+            "Transferred to Legal Reserve": {
+              "details": {
+                "Legal Reserve": {
+                  "current_year": 34123035,
+                  "previous_year": null,
+                  "growth_rate": null
+                },
+                "Retained Earnings": {
+                  "current_year": -34123035,
+                  "previous_year": null,
+                  "growth_rate": null
+                }
+              },
+              "overall_comparison": {
+                "current_year": 0,
+                "previous_year": null,
+                "growth_rate": null
+              }
+            },
+            "Treasury Shares Movement": {
+              "details": {
+                "Treasury Shares": {
+                  "current_year": -152235725,
+                  "previous_year": null,
+                  "growth_rate": null
+                }
+              },
+              "overall_comparison": {
+                "current_year": -152235725,
+                "previous_year": null,
+                "growth_rate": null
+              }
+            },
+            "Total Comprehensive Income": {
+              "details": {
+                "Retained Earnings": {
+                  "current_year": 801960651,
+                  "previous_year": null,
+                  "growth_rate": null
+                }
+              },
+              "overall_comparison": {
+                "current_year": 801960651,
+                "previous_year": null,
+                "growth_rate": null
+              }
+            },
+            "Dividends": {
+              "details": {
+                "Retained Earnings": {
+                  "current_year": -469083703,
+                  "previous_year": null,
+                  "growth_rate": null
+                }
+              },
+              "overall_comparison": {
+                "current_year": -469083703,
+                "previous_year": null,
+                "growth_rate": null
+              }
+            },
+            "Balance as of December 31, 2024": {
+              "details": {
+                "Issued and Paid-up Capital": {
+                  "current_year": 20635622860,
+                  "previous_year": null,
+                  "growth_rate": null
+                },
+                "Legal Reserve": {
+                  "current_year": 432163000,
+                  "previous_year": null,
+                  "growth_rate": null
+                },
+                "General Reserve": {
+                  "current_year": 61735404,
+                  "previous_year": null,
+                  "growth_rate": null
+                },
+                "Treasury Shares": {
+                  "current_year": -152235725,
+                  "previous_year": null,
+                  "growth_rate": null
+                },
+                "Retained Earnings": {
+                  "current_year": 1801584160,
+                  "previous_year": null,
+                  "growth_rate": null
+                }
+              },
+              "overall_comparison": {
+                "current_year": 22778869699,
+                "previous_year": null,
+                "growth_rate": null
+              }
+            },
+
+
+			
+            "Balance as of January 1, 2023": {
+              "details": {
+                "Issued and Paid-up Capital": {
+                  "current_year": 20635622860,
+                  "previous_year": null,
+                  "growth_rate": null
+                },
+                "Legal Reserve": {
+                  "current_year": 364990669,
+                  "previous_year": null,
+                  "growth_rate": null
+                },
+                "General Reserve": {
+                  "current_year": 61735404,
+                  "previous_year": null,
+                  "growth_rate": null
+                },
+                "Treasury Shares": {
+                  "current_year": 0,
+                  "previous_year": null,
+                  "growth_rate": null
+                },
+                "Retained Earnings": {
+                  "current_year": 1253618847,
+                  "previous_year": null,
+                  "growth_rate": null
+                }
+              },
+              "overall_comparison": {
+                "current_year": 22315967780,
+                "previous_year": null,
+                "growth_rate": null
+              }
+            },
+            "Transferred to Legal Reserve (2023)": {
+              "details": {
+                "Legal Reserve": {
+                  "current_year": 33049296,
+                  "previous_year": null,
+                  "growth_rate": null
+                },
+                "Retained Earnings": {
+                  "current_year": -33049296,
+                  "previous_year": null,
+                  "growth_rate": null
+                }
+              },
+              "overall_comparison": {
+                "current_year": 0,
+                "previous_year": null,
+                "growth_rate": null
+              }
+            },
+            "Total Comprehensive Income (2023)": {
+              "details": {
+                "Retained Earnings": {
+                  "current_year": 682460696,
+                  "previous_year": null,
+                  "growth_rate": null
+                }
+              },
+              "overall_comparison": {
+                "current_year": 682460696,
+                "previous_year": null,
+                "growth_rate": null
+              }
+            },
+            "Dividends (2023)": {
+              "details": {
+                "Retained Earnings": {
+                  "current_year": -407200000,
+                  "previous_year": null,
+                  "growth_rate": null
+                }
+              },
+              "overall_comparison": {
+                "current_year": -407200000,
+                "previous_year": null,
+                "growth_rate": null
+              }
+            },
+            "Balance as of December 31, 2023": {
+              "details": {
+                "Issued and Paid-up Capital": {
+                  "current_year": 20635622860,
+                  "previous_year": null,
+                  "growth_rate": null
+                },
+                "Legal Reserve": {
+                  "current_year": 398039965,
+                  "previous_year": null,
+                  "growth_rate": null
+                },
+                "General Reserve": {
+                  "current_year": 61735404,
+                  "previous_year": null,
+                  "growth_rate": null
+                },
+                "Treasury Shares": {
+                  "current_year": 0,
+                  "previous_year": null,
+                  "growth_rate": null
+                },
+                "Retained Earnings": {
+                  "current_year": 1495830247,
+                  "previous_year": null,
+                  "growth_rate": null
+                }
+              },
+              "overall_comparison": {
+                "current_year": 22591228476,
+                "previous_year": null,
+                "growth_rate": null
+              }
+            }
+          }
+        }
+      },
+      "error": null,
+      "metadata": {
+        "pdf_path": "temp_uploaded.pdf",
+        "extraction_type": "financial_data",
+        "temperature": 0,
+        "model": "gemini-2.5-flash",
+        "consolidated_mode": false
+      }
+    },
+    "notes_analysis": {
+      "success": true,
+      "data": "```markdown\n## 1. Accounting Framework and Policies\n\n### 1.1. Basis of Preparation:\nThe financial statements are prepared in accordance with Egyptian Accounting Standards and in light of prevailing Egyptian laws and regulations, including directives and interpretations issued by the Financial Regulatory Authority in January 2022 regarding bills of exchange received from non-delivering units and factoring operations. The financial statements are presented in Egyptian Pounds (EGP), the company's functional currency.\n\n### 1.2. Use of Estimates:\nThe preparation of financial statements requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities, disclosure of contingent assets and liabilities at the date of the financial statements, and the reported amounts of revenues and expenses during the reporting period.\n\n### 1.3. Foreign Currency Translation:\nTransactions in foreign currencies are initially recorded at the spot exchange rate at the date of the transaction. Monetary assets and liabilities denominated in foreign currencies are translated at the exchange rate at the balance sheet date, with all exchange differences recognized in profit or loss. Non-monetary assets and liabilities carried at historical cost are translated using the exchange rate at the date of the initial recognition. Non-monetary assets and liabilities carried at fair value are translated using the exchange rate at the date when the fair value was determined.\n\n### 1.4. Property, Plant and Equipment:\nProperty, plant, and equipment are stated at historical cost less accumulated depreciation and any accumulated impairment losses. Depreciation is calculated using the straight-line method over the estimated useful lives of the assets, as follows: Buildings and constructions 20 years, Transportation and moving equipment 5 years, Computer equipment 3-8 years, Furniture and fixtures 5-10 years, Tools and instruments 3-5 years. The asset's residual values, useful lives, and depreciation methods are reviewed at the end of each financial year.\n\n### 1.5. Impairment of Assets:\nThe company assesses at each reporting date whether there is an indication that an asset may be impaired. If any indication exists, the company estimates the recoverable amount of the asset. Impairment losses are recognized in profit or loss.\n\n### 1.6. Investments in Subsidiaries:\nInvestments in subsidiaries are accounted for at cost, including acquisition costs. If there is impairment in the value of these investments, the carrying amount is adjusted by the amount of the impairment, which is recognized in profit or loss.\n\n### 1.7. Financial Instruments:\nFinancial assets are classified into four categories: financial assets at amortized cost (debt instruments), financial assets at fair value through other comprehensive income with recycling of accumulated gains and losses (debt instruments), financial assets at fair value through other comprehensive income without recycling upon derecognition (equity instruments), and financial assets at fair value through profit or loss.\n\n### 1.8. Expected Credit Losses:\nThe company recognizes expected credit losses on financial assets measured at amortized cost and investments in debt instruments measured at fair value through other comprehensive income. The company measures loss allowances at an amount equal to lifetime expected credit losses, except for certain instruments where 12-month expected credit losses are applied.\n\n### 1.9. Leases:\nThe company assesses whether a contract is or contains a lease. The company recognizes lease liabilities to make lease payments and right-of-use assets representing the right to use the underlying assets.\n\n### 1.10. Revenue Recognition:\nRevenue is recognized when the company transfers control of a product or service to a customer. Revenue from investments in subsidiaries is recognized when the right to receive payment is established. Interest income is recognized using the effective interest method.\n\n### 1.11. Provisions:\nProvisions are recognized when the company has a present obligation as a result of a past event, it is probable that an outflow of resources embodying economic benefits will be required to settle the obligation, and a reliable estimate can be made of the amount of the obligation.\n\n### 1.12. Income Taxes:\nIncome tax expense is the aggregate of current and deferred tax. Current tax is the amount of income taxes payable or recoverable in respect of the taxable profit or loss for a period. Deferred tax is recognized on temporary differences between the carrying amounts of assets and liabilities in the financial statements and the corresponding tax bases used in the computation of taxable profit.\n\n### 1.13. Cash Flow Statement:\nThe statement of cash flows is prepared using the indirect method.\n\n### 1.14. Transactions with Related Parties:\nRelated parties include the parent company, subsidiaries, major shareholders, directors, and key management personnel. Pricing policies for transactions with related parties are approved by the board of directors.\n\n### 1.15. Employee Benefits:\nThe company contributes to a social insurance system for its employees. The company's contributions are charged to profit or loss on an accrual basis.\n\n### 1.16. Borrowing Costs:\nBorrowing costs directly attributable to the acquisition, construction, or production of a qualifying asset are capitalized as part of the cost of that asset. Other borrowing costs are expensed in the period in which they are incurred.\n\n### 1.17. Expenses:\nAll expenses are recognized in profit or loss in the financial year in which they are incurred.\n\n### 1.18. Dividends:\nDividends are recognized when they are approved.\n\n### 1.19. Earnings Per Share:\nBasic earnings per share is calculated by dividing the profit or loss attributable to equity holders of the company by the weighted average number of ordinary shares outstanding during the period.\n\n### 1.20. Fair Value Measurement:\nFair value is the price that would be received to sell an asset or paid to transfer a liability in an orderly transaction between market participants at the measurement date.\n\n## 2. Assets\n\n### 2.1. Property, Plant and Equipment:\nAt December 31 2024, the net book value of property, plant, and equipment was EGP 69711599.\n\n### 2.2. Investments in Subsidiaries:\nThe company holds investments in subsidiaries, including Arab Company for Projects and Urban Development, Alexandria Real Estate Investment Company, San Stefano Real Estate Investment Company, and Alexandria Company for Urban Projects. The total cost of investments in subsidiaries was EGP 19059562160 at December 31 2024.\n\n### 2.3. Financial Assets at Fair Value Through Profit or Loss:\nFinancial assets at fair value through profit or loss amounted to EGP 224854461 at December 31 2024.\n\n### 2.4. Financial Assets at Amortized Cost:\nFinancial assets at amortized cost amounted to EGP 3007584 at December 31 2024.\n\n### 2.5. Due from Related Parties:\nDue from related parties amounted to EGP 402475983 at December 31 2024.\n\n## 3. Equity\n\n### 3.1. Share Capital:\nThe authorized share capital is EGP 50000000. The issued and paid-up share capital is EGP 20635622860 divided into 2063562286 shares with a par value of EGP 10 per share.\n\n### 3.2. Legal Reserve:\nThe legal reserve amounted to EGP 432163000 at December 31 2024.\n\n### 3.3. General Reserve:\nThe general reserve amounted to EGP 61735404 at December 31 2024.\n\n### 3.4. Treasury Shares:\nTreasury shares amounted to EGP 152235725 at December 31 2024.\n\n## 4. Financial Risk Management\n\n### 4.1. Credit Risk:\nThe company's maximum exposure to credit risk is represented by the carrying amount of the financial assets.\n\n### 4.2. Liquidity Risk:\nThe company manages liquidity risk by maintaining adequate cash reserves.\n\n### 4.3. Market Risk:\nThe company is exposed to market risk, including foreign exchange risk and interest rate risk.\n\n## 5. Related Party Transactions\n\n### 5.1. Transactions with Subsidiaries:\nThe company has transactions with its subsidiaries, including dividend distributions.\n\n### 5.2. Key Management Personnel Compensation:\nKey management personnel compensation includes salaries and short-term benefits.\n\n## 6. Contingencies and Commitments\n\n### 6.1. Contingencies:\nThere are no material contingent liabilities.\n\n### 6.2. Commitments:\nThere are no material capital expenditure commitments.\n```",
+      "error": null,
+      "metadata": {
+        "pdf_path": "temp_uploaded.pdf",
+        "analysis_type": "notes_summary",
+        "temperature": 0,
+        "model": "gemini-2.0-flash",
+        "consolidated_mode": false
+      }
+    },
+    "financial_summary": {
+      "success": true,
+      "data": "```markdown\n## 1. Company Overview and Reporting Context:\nTMG Holding reported annual financial results for the year ended December 31 2024 with all figures presented in Egyptian Pounds. The company's total assets reached 22863646118 representing a slight increase of 0.86% from the prior year's 22667684858. This marginal growth reflects strategic investments and operational adjustments within the reporting period.\n\n## 2. Financial Performance Analysis\n\n### 2.1. Revenue and Expenses:\nTotal revenue for the year was 965929324 compared to 793221772 in the previous year, representing a growth of 21.77%. This increase was primarily driven by dividends from subsidiaries, which grew by 12.17% to 860851879. Finance income also contributed significantly, increasing by 251.75% to 9234653, and gains on financial assets at fair value through profit or loss increased by 314.16% to 95842792.\nExpenses and other items increased substantially to -74406176 from -36786921, a growth of 102.25%. This was largely due to an increase in general and administrative expenses, which rose by 60% to -56072539, and losses/reversal of expected credit losses, which shifted from a gain of 2549904 to a loss of -13117302.\n\n### 2.2. Profitability:\nProfit before tax increased by 17.84% to 891521158 from 756534756. After accounting for income tax, which increased by 20.91% to -89560507, the profit after tax was 801960651, representing a growth of 17.51% compared to the previous year's 682460696. Earnings per share also increased from 0.33 to 0.39, reflecting a growth of 18.18%.\n\n## 3. Balance Sheet Analysis\n\n### 3.1. Assets:\nNon-current assets experienced a slight increase of 0.01%, reaching 19130743759. This was primarily driven by investments in subsidiaries, which grew by 0.03% to 19059562160. Fixed assets decreased by 5.44% to 69711599.\nCurrent assets increased by 5.47% to 3732902359. This growth was largely due to a significant increase in financial assets at fair value through profit or loss, which grew by 71.1% to 224854462. Cash and cash equivalents also saw a substantial increase of 425.04% to 15118433. Financial investments at amortized cost decreased to 0 from 3007584.\n\n### 3.2. Liabilities and Equity:\nTotal liabilities increased by 10.88% to 84776419. Non-current liabilities, consisting solely of deferred tax liabilities, increased significantly by 217.95% to 18276260. Current liabilities decreased by 5.95% to 66500159.\nTotal equity increased by 0.83% to 22778869699. This was primarily driven by an increase in retained earnings, which grew by 20.44% to 1801584160. The company purchased treasury shares valued at -152235725. Issued and paid-up capital remained constant at 20635622860.\n\n## 4. Cash Flow Analysis\n\n### 4.1. Operating Activities:\nCash flows from operating activities decreased significantly to -215563416 from 600006276, a decrease of 135.93%. This was primarily due to changes in working capital, particularly a significant shift in due from related parties from an inflow of 723246147 to an outflow of -71089812.\n\n### 4.2. Investing Activities:\nCash flows from investing activities improved substantially to 841478083 from -193333366, an increase of 535.3%. This was mainly driven by dividends received, which amounted to 833851947, and a decrease in payments for investments in subsidiaries, which decreased by 99.38% to -6383500.\n\n### 4.3. Financing Activities:\nCash flows from financing activities decreased by 24.69% to -614319427. This was primarily due to the purchase of treasury shares (-152235725) and cash dividends paid (-462083702).\n\n### 4.4. Net Cash Flow:\nThe net cash and cash equivalents during the year increased significantly by 1923.56% to 11595240. The company's cash and cash equivalents at the end of the year was 15181459, a 427.2% increase from the previous year's 2879268.\n\n## 5. Statement of Changes in Equity\n\n### 5.1. Equity Movements:\nThe balance of equity as of January 1 2024 was 22591228476. During the year, 34123035 was transferred to the legal reserve, and treasury shares were purchased for -152235725. Total comprehensive income for the year was 801960651, and dividends of -469083703 were distributed. The balance as of December 31 2024 was 22778869699.\n```",
+      "error": null,
+      "metadata": {
+        "summary_type": "executive",
+        "data_source": "extracted_financials",
+        "temperature": 0,
+        "model": "gemini-2.0-flash"
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "/api/analyze"
+  to = "http://34.31.91.49:9092/analyze"
+  status = 200
+  force = true
+  conditions = { Method = ["POST"] }
