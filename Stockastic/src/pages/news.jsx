@@ -241,7 +241,7 @@ function News() {
 				params.date_filter = dateNow; // Make sure dateNow is formatted correctly
 			}
 
-			const res = await axios.get('/api/headlines', {
+			const res = await axios.get('https://newsapi.stockastic.app/headlines', {
 				auth: {
 					username: 'admin',
 					password: 'Admin@1310',
