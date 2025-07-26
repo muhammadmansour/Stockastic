@@ -3,7 +3,7 @@ const apiUrl = import.meta.env.VITE_API_URL;
 
 async function Register(data) {
 	try {
-		const response = await axios.post(`https://authapi.stockastic.app/register`, data); 
+		const response = await axios.post(`https://authapi.stockastic.app/api/register`, data); 
 		return response; 
 	} catch (error) {
 		console.error("Registration failed:", error);
@@ -14,7 +14,7 @@ async function Register(data) {
 
 async function LoginService(data) {
   try {
-    const response = await axios.post(`https://authapi.stockastic.app/login`, data, {
+    const response = await axios.post(`https://authapi.stockastic.app/api/login`, data, {
       withCredentials: true,
     });
     return response;
