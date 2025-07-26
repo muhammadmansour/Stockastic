@@ -11,7 +11,7 @@ export default defineConfig({
  server: {
     proxy: {
       '/api': {
-        target: 'http://34.10.135.102:9093',
+        target: 'http://newsapi.stockastic.app',
         changeOrigin: true,
         rewrite: path => path.replace(/^\/api/, '')
       }

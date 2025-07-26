@@ -175,7 +175,7 @@ function Analysis() {
 				formData.append('file', sentFile);
 
 				setAnalysisSpinner(true);
-				axios.post("http://34.10.135.102:9092/analyze", formData, {
+				axios.post("https://analysisapi.stockastic.app/analyze", formData, {
 					auth: {
 						username: 'admin',
 						password: 'Admin@1310'
