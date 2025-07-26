@@ -11,7 +11,7 @@ function Navbar() {
 	async function Logout() {
 		try {
 			const response = await axios.post(
-		"https://authapi.stockastic.app",
+		"https://authapi.stockastic.app/logout",
 			{}, // No body needed for logout
 			{
 				withCredentials: true,
