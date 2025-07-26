@@ -8,14 +8,14 @@ import flowbiteReact from "flowbite-react/plugin/vite";
 // https://vite.dev/config/
 export default defineConfig({
 
- server: {
-    proxy: {
-      '/api': {
-        target: 'https://newsapi.stockastic.app',
-        changeOrigin: true,
-        rewrite: path => path.replace(/^\/api/, '')
-      }
-    }
-  },
+//  server: {
+//     proxy: {
+//       '/api': {
+//         target: 'http://34.10.135.102:9093',
+//         changeOrigin: true,
+//         rewrite: path => path.replace(/^\/api/, '')
+//       }
+//     }
+//   },
   plugins: [react(), tailwindcss(), flowbiteReact()],
 })
