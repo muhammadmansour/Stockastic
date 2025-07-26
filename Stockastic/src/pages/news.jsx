@@ -520,7 +520,7 @@ function News() {
 									className="flex flex-col items-center justify-center bg-[#f0f9ff] text-black rounded-lg p-3"
 								>
 									<p className="text-md font-semibold text-center">Latest Article</p>
-									<h4 className="text-xl font-bold text-center">{data[0].article_timestamp.split("T").join(" ")}</h4>
+									<h4 className="text-xl font-bold text-center">{data[0]?.article_timestamp.split("T").join(" ")}</h4>
 								</div>
 
 								<div
