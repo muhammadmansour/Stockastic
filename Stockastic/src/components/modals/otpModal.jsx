@@ -18,7 +18,7 @@ function OTPModal({ otpModal, setOtpModal, email,  errorToast, setErrorToast, to
     }
 
     try {
-      const response = await axios.post(`${apiUrl}/otp-verification`, {
+      const response = await axios.post(`https://authapi.stockastic.app/api/otp-verification`, {
         email,
         otp,
       });
