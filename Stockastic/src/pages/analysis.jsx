@@ -165,7 +165,7 @@ function Analysis() {
 	const handleSubmit = (e) => {
 		e.preventDefault();
 
-		axios.get(`${apiUrl}/quota-check`, {
+		axios.get(`https://authapi.stockastic.app/api/quota-check`, {
 			withCredentials: true,
 		})
 			.then(function (response) {
@@ -183,11 +183,10 @@ function Analysis() {
 
 				})
 					.then(res => {
-						console.log(res)
 						setData(res.data.result)
 
 
-						axios.get(`${apiUrl}/quota-update`, {
+						axios.get(`https://authapi.stockastic.app/api/quota-update`, {
 							withCredentials: true,
 						}).then(res => {
 							console.log(res)
