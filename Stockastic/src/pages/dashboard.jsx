@@ -35,9 +35,9 @@ function Card({ data }) {
 
 function Dashboard() {
 	const cardData = [
-		{"slogn":"Analyze market sentiment from thousands of news sources, social media, and financial reports using advanced NLP algorithms to predict market movemen" ,"title": "News sentiment analysis", "icon": <Newspaper className="h-8 w-8 text-blue-600" />, "buttontitle": "Start Analysis", "title_color": "text-blue-600", "path": "analysis" },
+		{"slogn":"Analyze market sentiment from thousands of news sources, social media, and financial reports using advanced NLP algorithms to predict market movemen" ,"title": "News sentiment analysis", "icon": <Newspaper className="h-8 w-8 text-blue-600" />, "buttontitle": "Start Analysis", "title_color": "text-blue-600", "path": "news" },
 
-		{"slogn":"Instant Financial Intelligence — Just Upload.", "title": "Analyze financial statements", "icon": <FileText className="h-8 w-8 text-purple-600" />, "title_color": "text-purple-600", "path": "news" }
+		{"slogn":"Instant Financial Intelligence — Just Upload.", "title": "Analyze financial statements", "icon": <FileText className="h-8 w-8 text-purple-600" />, "title_color": "text-purple-600",  "path": "analysis" }
 
 	]
 
