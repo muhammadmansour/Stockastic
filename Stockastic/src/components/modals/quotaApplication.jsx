@@ -32,7 +32,7 @@ function QuotaApplicationModal({ applicationQuotaModal, setErrorToast, setAppQut
 	const handleSubmit = (values) => {
 		setButtonStatus(true)
 
-		axios.post(`${apiUrl}/quota-application`, {
+		axios.post(`https://authapi.stockastic.app/api/quota-application`, {
 			values
 		})
 			.then(function (response) {

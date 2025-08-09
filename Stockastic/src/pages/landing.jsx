@@ -1,5 +1,8 @@
 import img1 from "../assets/stochastic_hero_dashboard-sEXfsj19.png"
-import img2 from "../assets/ai_insights_graphic-CBMie933.png"
+import img2 from "../assets/src1.jpg"
+
+import { MdEmail } from "react-icons/md";
+import { FaPhoneAlt } from "react-icons/fa";
 import { LogIn } from "lucide-react";
 
 function Landing() {
@@ -23,24 +26,24 @@ function Landing() {
 						<span className="block"> specifically designed for the Egyptian Exchange market.</span>
 					</p>
 
-			<div className="flex flex-col items-center justify-center gap-3 md:flex-row w-full max-w-sm text-center">
-      <a href="/register" className="w-full md:w-auto">
-        <button
-          className="w-full md:w-[200px] flex items-center justify-center gap-2 px-4 py-3 bg-gradient-to-r from-blue-600 to-indigo-700 text-white font-medium rounded-lg shadow-sm hover:from-blue-700 hover:to-indigo-800 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200"
-        >
-          Try Us
-        </button>
-      </a>
+					<div className="flex flex-col items-center justify-center gap-3 md:flex-row w-full max-w-sm text-center">
+						<a href="/register" className="w-full md:w-auto">
+							<button
+								className="w-full md:w-[200px] flex items-center justify-center gap-2 px-4 py-3 bg-gradient-to-r from-blue-600 to-indigo-700 text-white font-medium rounded-lg shadow-sm hover:from-blue-700 hover:to-indigo-800 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200"
+							>
+								Try Us
+							</button>
+						</a>
 
-      <a href="/login" className="w-full md:w-auto">
-        <button
-          className="w-full md:w-[200px] flex items-center justify-center gap-2 px-4 py-3 bg-gradient-to-r from-blue-600 to-indigo-700 text-white font-medium rounded-lg shadow-sm hover:from-blue-700 hover:to-indigo-800 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200"
-        >
-          <LogIn className="w-5 h-5" />
-          Login
-        </button>
-      </a>
-    </div>
+						<a href="/login" className="w-full md:w-auto">
+							<button
+								className="w-full md:w-[200px] flex items-center justify-center gap-2 px-4 py-3 bg-gradient-to-r from-blue-600 to-indigo-700 text-white font-medium rounded-lg shadow-sm hover:from-blue-700 hover:to-indigo-800 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200"
+							>
+								<LogIn className="w-5 h-5" />
+								Login
+							</button>
+						</a>
+					</div>
 
 
 					<div className="grid grid-cols-2 md:grid-cols-4 gap-6 pt-8">
@@ -80,7 +83,7 @@ function Landing() {
 				</div>
 
 				<div className="relative z-10">
-					<img src={img1} className="w-full h-auto rounded-lg shadow-2xl" />
+					<img src={img2} className="w-full h-auto rounded-lg shadow-2xl" />
 				</div>
 			</section>
 
@@ -149,7 +152,37 @@ function Landing() {
 			</div>
 
 			<section class="py-16 bg-slate-900 text-white"><div class="container mx-auto px-4"><div class="grid lg:grid-cols-2 gap-12 items-center"><div class="space-y-6"><h2 class="text-3xl lg:text-4xl font-bold">AI-Driven Market Intelligence</h2><p class="text-xl text-gray-300">Our advanced artificial intelligence algorithms process vast amounts of financial data to deliver actionable insights for EGX investments.</p><div class="space-y-4"><div class="flex items-center space-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-big h-6 w-6 text-green-400" aria-hidden="true"><path d="M21.801 10A10 10 0 1 1 17 3.335"></path><path d="m9 11 3 3L22 4"></path></svg><span>Real-time financial statement analysis</span></div><div class="flex items-center space-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-big h-6 w-6 text-green-400" aria-hidden="true"><path d="M21.801 10A10 10 0 1 1 17 3.335"></path><path d="m9 11 3 3L22 4"></path></svg><span>Predictive risk assessment models</span></div><div class="flex items-center space-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-big h-6 w-6 text-green-400" aria-hidden="true"><path d="M21.801 10A10 10 0 1 1 17 3.335"></path><path d="m9 11 3 3L22 4"></path></svg><span>Market trend identification</span></div><div class="flex items-center space-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-big h-6 w-6 text-green-400" aria-hidden="true"><path d="M21.801 10A10 10 0 1 1 17 3.335"></path><path d="m9 11 3 3L22 4"></path></svg><span>Automated portfolio optimization</span></div></div><button data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive text-primary-foreground shadow-xs h-10 rounded-md px-6 has-[>svg]:px-4 bg-blue-600 hover:bg-blue-700">Explore AI Features</button></div><div class="relative"><img alt="AI Insights" class="w-full h-auto rounded-lg" src={img2} /></div></div></div></section>
-			<section class="py-16 bg-gradient-to-r from-blue-600 to-blue-800 text-white"><div class="container mx-auto px-4 text-center"><div class="max-w-3xl mx-auto space-y-6"><h2 class="text-3xl lg:text-4xl font-bold">Ready to Transform Your EGX Analysis?</h2><p class="text-xl text-blue-100">Join leading Egyptian financial professionals who trust Stockastic for their investment decisions.</p><div class="flex flex-col sm:flex-row gap-4 justify-center"><button data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive shadow-xs h-10 rounded-md has-[>svg]:px-4 bg-white text-blue-600 hover:bg-gray-100 text-lg px-8 py-3">Request Demo</button><button data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border bg-background shadow-xs dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-10 rounded-md has-[>svg]:px-4 border-white text-white hover:bg-white hover:text-blue-600 text-lg px-8 py-3">Contact Sales</button></div></div></div></section>
+			<section class="py-16 bg-gradient-to-r from-blue-600 to-blue-800 text-white"><div class="container mx-auto px-4 text-center">
+				<div class="max-w-3xl mx-auto space-y-6">
+					<h2 class="text-3xl lg:text-4xl font-bold">Ready to Transform Your EGX Analysis?</h2>
+					<p class="text-xl text-blue-100">Join leading Egyptian financial professionals who trust Stockastic for their investment decisions.</p>
+					<div class="flex flex-col sm:flex-row gap-4 justify-center">
+						<div className="bg-white shadow-lg rounded-2xl p-6 w-full max-w-md">
+							<h4 className="text-lg font-semibold mb-3 text-gray-700">Request Demo</h4>
+								{/* Email */}
+								<div className="flex items-center mb-4">
+									<MdEmail className="text-blue-500 text-2xl mr-3" />
+									<a
+										href="mailto:info@stockastic.app"
+										className="text-lg text-gray-700 hover:text-blue-600"
+									>
+										info@stockastic.app
+									</a>
+								</div>
+
+								{/* Phone */}
+								<div className="flex items-center">
+									<FaPhoneAlt className="text-green-500 text-xl mr-3" />
+									<a
+										href="tel:+201005536819"
+										className="text-lg text-gray-700 hover:text-green-600"
+									>
+										+20 100 553 6819
+									</a>
+								</div>
+							</div>
+						
+							</div></div></div></section>
 		</div>
 
 	)
