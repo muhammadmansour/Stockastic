@@ -2,6 +2,8 @@ import { FaArrowTrendUp } from "react-icons/fa6";
 import { Mail, Lock, Eye, EyeOff, ArrowRight, CheckCircle, LogOut } from 'lucide-react';
 import { useAuth } from "../contexts/authContexts";
 import axios from "axios";
+import Stockastic from "../assets/Stockastic.png"
+
 function Navbar() {
 	const { auth, loading } = useAuth();
 
@@ -11,14 +13,14 @@ function Navbar() {
 	async function Logout() {
 		try {
 			const response = await axios.post(
-		"https://authapi.stockastic.app/api/logout",
-			{}, // No body needed for logout
-			{
-				withCredentials: true,
-			}
-		);
+				"https://authapi.stockastic.app/api/logout",
+				{}, // No body needed for logout
+				{
+					withCredentials: true,
+				}
+			);
 			console.log(response.status == 200)
-			if (response.status ==200) {
+			if (response.status == 200) {
 				window.location.href = "/"
 			}
 
@@ -33,19 +35,13 @@ function Navbar() {
 	return (
 		<div className="flex flex-row p-4 shadow-md justify-between">
 			<div className="flex flex-row items-center space-x-2">
-				<div>
-					<FaArrowTrendUp size={40} color="white" style={{ backgroundColor: "#4338ca", padding: "4px", borderRadius: "5px" }} />
-				</div>
+			
 				<div className="flex flex-col">
-					<h4 className="font-bold text-[#4338CA] dark:text-[#4338CA] text-2xl">
-						Stockastic
-					</h4>
-
-					<p className="font-sans  text-[#4338CA] dark:text-[#4338CA]">
-						Comprehensive financial overview and analytics
+					<div className="w-[120px]">
+						<img src={Stockastic} alt="Stockastic" />
+					</div>
 
 
-					</p>
 				</div>
 			</div>
 

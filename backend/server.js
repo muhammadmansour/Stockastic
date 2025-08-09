@@ -33,7 +33,9 @@ app.get('/', async (req, res) => {
 // routes 
 
 const userRoutes = require("./routes/users/usersRoutes.js")
+const quotaRoutes = require("./routes/quota/quotaRoutes.js")
 app.use(userRoutes)
+app.use(quotaRoutes)
 
 const PORT = 5050;
 

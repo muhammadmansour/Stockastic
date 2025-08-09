@@ -6,6 +6,8 @@ import * as Yup from "yup";
 import { useState } from "react";
 import { LoginService } from "../services/auth";
 import ErrorToast from "../components/toasts/errorToast";
+import Stockastic from "../assets/Stockastic.png"
+
 
 function Login() {
 	const [toast, setToast] = useState("hidden")
@@ -66,14 +68,11 @@ function Login() {
 
 			<div class="min-h-screen flex flex-col justify-center items-center bg-[#f4f8fd] space-y-4">
 				<div className="items-center text-center flex flex-col space-y-2">
-					<div>
-						<FaArrowTrendUp size={80} color="white" style={{ backgroundColor: "#4338ca", padding: "6px", borderRadius: "8px" }} />
-					</div>
+						<div className="w-[320px]">
+											<img src={Stockastic} alt="Stockastic" />
+										</div>
 
-					<div>
-						<h4 className="font-bold text-3xl text-black m-auto text-center">Stockastic</h4>
-
-					</div>
+					
 					<div>
 						<h4 className="font-sans text-3xl text-black m-auto text-center">Login</h4>
 					</div>

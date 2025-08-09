@@ -18,8 +18,10 @@ import { IoCloseSharp } from "react-icons/io5";
 import { FaFileUpload } from "react-icons/fa";
 import axios from "axios";
 import QuotaExceededModal from "../components/modals/quotaExceeded";
+import QuotaApplicationModal from "../components/modals/quotaApplication";
 const apiUrl = import.meta.env.VITE_API_URL;
-
+import SuccessToast from "../components/toasts/sucessToast";
+import ErrorToast from "../components/toasts/errorToast";
 
 
 
@@ -34,6 +36,15 @@ function Analysis() {
 	const [sentFile, setFile] = useState()
 	const [data, setData] = useState([])
 	const [quotaModal, setQuotModal] = useState("hidden")
+	const [applicationQuotaModal, setAppQutaoModal] = useState("hidden")
+
+	const [toast, setToast] = useState("hidden")
+	const [response, setResponse] = useState()
+
+
+	const [errorToast, setErrorToast] = useState("hidden")
+
+
 
 
 	const fileChange = (e) => {
@@ -223,8 +234,10 @@ function Analysis() {
 		<div className="text-black w-full ">
 
 			{analysisiSpinner && <AnalysisLoadingModal />}
-			<QuotaExceededModal quotaModal={quotaModal} setQuotModal={setQuotModal} />
-
+			<QuotaExceededModal applicationQuotaModal={applicationQuotaModal} setAppQutaoModal={setAppQutaoModal} quotaModal={quotaModal} setQuotModal={setQuotModal} />
+			<QuotaApplicationModal setToast={setToast} setResponse={setResponse} setErrorToast={setErrorToast} applicationQuotaModal={applicationQuotaModal} setAppQutaoModal={setAppQutaoModal} />
+			<SuccessToast response={response} toast={toast} setToast={setToast} />
+			<ErrorToast response={response} toast={errorToast} setToast={setErrorToast} />
 
 			{sentFile ? (
 

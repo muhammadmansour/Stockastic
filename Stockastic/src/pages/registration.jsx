@@ -9,11 +9,11 @@ import OTPModal from "../components/modals/otpModal";
 import { useState } from "react";
 import SuccessToast from "../components/toasts/sucessToast";
 import ErrorToast from "../components/toasts/errorToast";
-
+import Stockastic from "../assets/Stockastic.png"
 function Registration() {
 	const [otpModal, setOtpModal] = useState("hidden")
 	const [toast, setToast] = useState("hidden")
-		const [response, setResponse] = useState()
+	const [response, setResponse] = useState()
 
 	const [errorToast, setErrorToast] = useState("hidden")
 
@@ -30,7 +30,7 @@ function Registration() {
 			.oneOf([Yup.ref("password"), null], "  passwords don't match ")
 			.required("password confirmation is required ")
 	});
-	
+
 
 	const formik = useFormik({
 		initialValues: {
@@ -87,14 +87,11 @@ function Registration() {
 			<OTPModal response={response} setResponse={setResponse} errorToast={errorToast} setErrorToast={setErrorToast} toast={toast} setToast={setToast} email={email} setOtpModal={setOtpModal} otpModal={otpModal} />
 			<div class="min-h-screen flex flex-col justify-center items-center bg-[#f4f8fd] space-y-4">
 				<div className="items-center text-center flex flex-col space-y-2">
-					<div>
-						<FaArrowTrendUp size={80} color="white" style={{ backgroundColor: "#4338ca", padding: "6px", borderRadius: "8px" }} />
+					<div className="w-[320px]">
+						<img src={Stockastic} alt="Stockastic" />
 					</div>
 
-					<div>
-						<h4 className="font-bold text-3xl text-black m-auto text-center">Stockastic</h4>
 
-					</div>
 					<div>
 						<h4 className="font-sans text-3xl text-black m-auto text-center">Create Account</h4>
 					</div>

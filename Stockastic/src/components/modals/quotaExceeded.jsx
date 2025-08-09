@@ -1,6 +1,6 @@
 import { AlertTriangle, X, Zap, Phone } from 'lucide-react';
 
-function QuotaExceededModal({ quotaModal, setQuotModal }) {
+function QuotaExceededModal({ quotaModal, setQuotModal, applicationQuotaModal, setAppQutaoModal} ) {
 	const currentUsage = 2
 	const maxQuota = 2
 	const quotaType = "API requests"
@@ -64,7 +64,7 @@ function QuotaExceededModal({ quotaModal, setQuotModal }) {
     {/* Action Buttons */}
     <div className="space-y-3">
       <button
-        onClick={() => {}}
+        onClick={() => {setAppQutaoModal("flex"); setQuotModal("hidden")}}
         className="w-full flex items-center justify-center gap-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white py-3 px-4 rounded-xl font-medium hover:from-blue-700 hover:to-purple-700 transition-all duration-200 transform hover:scale-[1.02]"
       >
         <Phone size={18} />
