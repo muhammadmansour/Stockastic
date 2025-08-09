@@ -28,7 +28,7 @@ createRoot(document.getElementById('root')).render(
 
   {/* Protected Routes */}
   <Route path="/analysis" element={
-    <Analysis />
+    <ProtectedRoute><Analysis /></ProtectedRoute>
   } />
   <Route path="/register" element={
     <Registration />
