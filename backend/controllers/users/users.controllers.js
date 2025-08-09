@@ -9,36 +9,32 @@ const dotenv = require("dotenv")
 dotenv.config({ path: "./.env" })
 exports.register = async (req, res) => {
 	try {
-		console.log(req.body);
-
+		console.log(req.body)
 		const { email, quota, password } = req.body;
 		const role = "user";
+		const checkEmail = await prisma.users.findUnique({
+			where: {
+				email: email
+			}
+		});
 
-		// Check if email exists
-		const existingUser = await prisma.users.findUnique({ where: { email } });
-		if (existingUser) {
-			return res.status(409).json({
-				statusCode: 409,
-				message: "Email already registered"
-			});
+		if (checkEmail) {
+			return res.status(409).json({ statusCode: "409", Message: "Email already registered" })
 		}
 
-		// Hash password
 		const hashedPassword = await bcrypt.hash(password, 10);
 
-		// Create user with OTP
-		const OTP = generateOTP();
+
 		const user = await prisma.users.create({
 			data: {
 				email,
 				role,
 				quota,
-				password: hashedPassword, // Make sure this matches your Prisma schema
-				otp: parseInt(OTP)
+				hashedPassword
 			}
 		});
 
-		// Send OTP email (with error handling)
+		const OTP = generateOTP()
 		try {
 			await sendOtpEmail(email, OTP);
 		} catch (err) {
@@ -49,20 +45,21 @@ exports.register = async (req, res) => {
 			});
 		}
 
-		return res.status(201).json({
-			statusCode: 201,
-			user,
-			message: "OTP sent to your email"
+		await prisma.users.update({
+			where: { email: email },
+			data: { otp: parseInt(OTP) }
 		});
 
+
+		res.status(201).json({ user: user, message: "OTP sent to you email" });
+
+
+
 	} catch (e) {
-		console.error(e);
-		return res.status(500).json({
-			statusCode: 500,
-			message: "Internal server error"
-		});
+		console.error(e)
+		res.status(500).json({ stautsCode: "500", Message: "Internal server error" })
 	}
-};
+}
 
 exports.verifyotp = async (req, res) => {
 	try {
