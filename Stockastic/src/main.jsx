@@ -40,9 +40,12 @@ createRoot(document.getElementById('root')).render(
   <Route path="/dashboard" element={
     <ProtectedRoute><Dashboard /></ProtectedRoute>
   } />
-  <Route path="/news" element={
-   <News />
+
+    <Route path="/dashboard" element={
+    <ProtectedRoute><Dashboard /></ProtectedRoute>
   } />
+  <Route path="/news" element={
+<ProtectedRoute><News /></ProtectedRoute>  } />
 </Routes>
     </Layout>
  
