@@ -207,18 +207,17 @@ function News() {
 	selectedCompanies.forEach(symbol => query.append("companies", symbol));
 
 	if (useDateFilter) {
-		query.append("date_filter", dateNow)
+		query.append("date_filter", useDateFilter)
 
 	}
 
-	console.log(useDateFilter)
 
 	const sectorsQuery = new URLSearchParams();
 	selectedSectors.forEach(symbol => sectorsQuery.append("sectors", symbol));
 
 
 	if (useDateFilter) {
-		sectorsQuery.append("date_filter", dateNow)
+		sectorsQuery.append("date_filter", useDateFilter)
 
 	}
 
@@ -239,7 +238,7 @@ function News() {
 			}
 
 			if (useDateFilter) {
-				params.date_filter = dateNow; // Make sure dateNow is formatted correctly
+				params.date_filter = useDateFilter; // Make sure dateNow is formatted correctly
 			}
 
 			const res = await axios.get('https://newsapi.stockastic.app/headlines', {
@@ -273,7 +272,7 @@ function News() {
 			}
 
 			if (useDateFilter) {
-				params.date_filter = dateNow; // Make sure dateNow is formatted correctly
+				params.date_filter = useDateFilter; // Make sure dateNow is formatted correctly
 			}
 
 			const res = await axios.get('https://newsapi.stockastic.app/headlines', {
@@ -308,7 +307,7 @@ function News() {
 			}
 
 			if (useDateFilter) {
-				params.date_filter = dateNow;
+				params.date_filter = useDateFilter;
 			}
 
 			const res = await axios.get('https://newsapi.stockastic.app/headlines', {
