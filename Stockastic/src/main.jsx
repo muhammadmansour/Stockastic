@@ -17,6 +17,7 @@ import { Navbar } from 'flowbite-react';
 
 import { AuthProvider } from "./contexts/authContexts.jsx"
 import Layout from './layouts/Layout.jsx';
+
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
   <AuthProvider>
@@ -40,7 +41,7 @@ createRoot(document.getElementById('root')).render(
     <ProtectedRoute><Dashboard /></ProtectedRoute>
   } />
   <Route path="/news" element={
-    <ProtectedRoute><News /></ProtectedRoute>
+   <News />
   } />
 </Routes>
     </Layout>

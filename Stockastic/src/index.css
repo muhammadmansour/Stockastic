@@ -1,6 +1,9 @@
 @import "tailwindcss";
 @plugin "flowbite-react/plugin/tailwindcss";
 @source "../.flowbite-react/class-list.json";
+@import "tailwindcss";
+@source "../node_modules/flowbite-datepicker";
+
 
 :root {
   font-family: "Poppins", sans-serif;

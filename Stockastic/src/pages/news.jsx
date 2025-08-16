@@ -7,6 +7,7 @@ import qs from 'qs'
 import { Newspaper, BarChart3 } from 'lucide-react';
 
 import { DateTime } from 'luxon';
+import DatePicker from '../components/dataPicker/datepicker';
 
 
 function News() {
@@ -409,10 +410,12 @@ function News() {
 								<h5 className='text-gray-700 font-medium text-[17px]'>
 									Date Filter</h5>
 							</div>
-							<div class="flex items-center">
+							{/* <div class="flex items-center">
 								<input onChange={handleCheckboxChange} id="checked-checkbox" type="checkbox" value="" class="w-4 h-4 dark:text-gray-900 text-gray-900 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
 								<label for="checked-checkbox" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-900">Use Date Filter</label>
-							</div>
+							</div> */}
+
+							<DatePicker onChange={(date) => setUseDateFilter(date)} />
 
 						</div>
 
@@ -485,28 +488,28 @@ function News() {
 						</div>
 					</div>
 
-				{selectedCompanies.length > 0 ? (
-  <button
-    onClick={fetchHeadlines}
-    className="w-[80%] m-auto flex items-center justify-center gap-2 px-4 py-3 bg-gradient-to-r from-blue-600 to-indigo-700 text-white font-medium rounded-lg shadow-sm hover:from-blue-700 hover:to-indigo-800 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200"
-  >
-    Fetch Headlines 
-  </button>
-) : selectedSectors.length > 0 ? (
-  <button
-    onClick={fetchHeadlinesSectors}
-    className="w-[80%] m-auto flex items-center justify-center gap-2 px-4 py-3 bg-gradient-to-r from-blue-600 to-indigo-700 text-white font-medium rounded-lg shadow-sm hover:from-blue-700 hover:to-indigo-800 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200"
-  >
-    Fetch Headlines 
-  </button>
-) : (
-   <button
-    onClick={fetchAll}
-    className="w-[80%] m-auto flex items-center justify-center gap-2 px-4 py-3 bg-gradient-to-r from-blue-600 to-indigo-700 text-white font-medium rounded-lg shadow-sm hover:from-blue-700 hover:to-indigo-800 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200"
-  >
-    Fetch Headlines 
-  </button>
-)}
+					{selectedCompanies.length > 0 ? (
+						<button
+							onClick={fetchHeadlines}
+							className="w-[80%] m-auto flex items-center justify-center gap-2 px-4 py-3 bg-gradient-to-r from-blue-600 to-indigo-700 text-white font-medium rounded-lg shadow-sm hover:from-blue-700 hover:to-indigo-800 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200"
+						>
+							Fetch Headlines
+						</button>
+					) : selectedSectors.length > 0 ? (
+						<button
+							onClick={fetchHeadlinesSectors}
+							className="w-[80%] m-auto flex items-center justify-center gap-2 px-4 py-3 bg-gradient-to-r from-blue-600 to-indigo-700 text-white font-medium rounded-lg shadow-sm hover:from-blue-700 hover:to-indigo-800 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200"
+						>
+							Fetch Headlines
+						</button>
+					) : (
+						<button
+							onClick={fetchAll}
+							className="w-[80%] m-auto flex items-center justify-center gap-2 px-4 py-3 bg-gradient-to-r from-blue-600 to-indigo-700 text-white font-medium rounded-lg shadow-sm hover:from-blue-700 hover:to-indigo-800 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200"
+						>
+							Fetch Headlines
+						</button>
+					)}
 
 				</div>
 
@@ -559,9 +562,9 @@ function News() {
 									className="flex flex-col  items-center justify-center bg-[#f0f9ff] text-black rounded-lg p-3"
 								>
 									<p className="text-md font-semibold text-center">Oldest Article</p>
-<h4 className="text-xl font-bold text-center">
-  {data[data.length - 1]?.article_timestamp.split("T").join(" ")}
-</h4>
+									<h4 className="text-xl font-bold text-center">
+										{data[data.length - 1]?.article_timestamp.split("T").join(" ")}
+									</h4>
 								</div>
 							</div>
 						</div>
